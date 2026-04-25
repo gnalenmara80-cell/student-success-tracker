@@ -4,18 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Import Data</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f7fa;
+            color: #333;
+        }
+
+        nav {
+            background: #003366;
+            padding: 12px 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px 10px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .upload-btn {
+            display: inline-block;
+            background: #003366;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+
+        .upload-btn:hover {
+            background: #0055aa;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+            background: #003366;
+            color: white;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
+
 <body>
+
     <nav>
-        <a href="index.html">Home</a> |
-        <a href="add-progress.html">Add Progress</a> |
-        <a href="view-progress.html">View Progress</a> |
-        <a href="archive.html">Archive</a> |
-        <a href="import.html">Import</a> |
+        <a href="index.html">Home</a>
+        <a href="add-progress.html">Add Progress</a>
+        <a href="view-progress.html">View Progress</a>
+        <a href="archive.html">Archive</a>
+        <a href="import.html">Import</a>
         <a href="about.html">About</a>
     </nav>
 
-    <h1>Import Data</h1>
-    <p>Sample Button: [Upload JSON File]</p>
-</body>
-</html>
+    <header>
+        <h1>Import Data</h1>
+    </header>
+
+    <main>
+        <p>Select a JSON
